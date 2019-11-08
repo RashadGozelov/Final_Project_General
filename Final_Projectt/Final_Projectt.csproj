@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20191012141342_CreateCategoryProductMarkaProductImageMarkaCategoryTable.cs" />
+    <Compile Remove="Migrations\20191012141342_CreateCategoryProductMarkaProductImageMarkaCategoryTable.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.3.2" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\admin\assets\ajax\libs\core-js\2.4.1\core.js" />
+    <None Include="wwwroot\admin\assets\buttons.github.io\buttons.js" />
+    <None Include="wwwroot\admin\assets\demo\demo.js" />
+    <None Include="wwwroot\admin\assets\demo\jquery.sharrre.js" />
+    <None Include="wwwroot\admin\assets\js\core\bootstrap-material-design.min.js" />
+    <None Include="wwwroot\admin\assets\js\core\jquery.min.js" />
+    <None Include="wwwroot\admin\assets\js\core\popper.min.js" />
+    <None Include="wwwroot\admin\assets\js\material-dashboard.minf066.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\arrive.min.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\bootstrap-datetimepicker.min.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\bootstrap-notify.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\bootstrap-selectpicker.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\bootstrap-tagsinput.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\chartist.min.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\fullcalendar.min.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\jasny-bootstrap.min.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\jquery-jvectormap.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\jquery.bootstrap-wizard.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\jquery.dataTables.min.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\jquery.validate.min.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\moment.min.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\nouislider.min.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\perfect-scrollbar.jquery.min.js" />
+    <None Include="wwwroot\admin\assets\js\plugins\sweetalert2.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\brand\" />
+    <Folder Include="wwwroot\img\slider\" />
+  </ItemGroup>
+
+</Project>
